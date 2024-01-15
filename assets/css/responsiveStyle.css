@@ -5,3 +5,83 @@
   box-sizing: border-box;
   font-family: "Mulish", sans-serif;
 }
+
+@media screen and (max-width: 600px) {
+  .banner-section {
+    height: 800px;
+    margin: 20px 20px;
+    padding: 15px 0;
+  }
+  .banner-container {
+    flex-direction: column;
+    max-height: 700px;
+    padding: 50px 0;
+  }
+  .banner-group-text {
+    flex-direction: column;
+    width: 100%;
+    max-height: 500px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 5px;
+  }
+
+  .banner-text h1 {
+    font-size: 64px;
+    font-weight: 800;
+    width: 90%;
+    text-align: center;
+  }
+  .banner-text p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    width: 700px;
+    padding: 30px 0;
+    width: 90%;
+  }
+  .whole-banner-group-text {
+    width: 90%;
+  }
+  .banner-group-text input {
+    width: 100%;
+  }
+  .banner-group-text button {
+    width: 100%;
+  }
+  .banner-group-text #where,
+  .banner-group-text #when,
+  .banner-group-text #select-type {
+    padding-left: 10px;
+    min-height: 60px;
+  }
+  /* .banner-group-text {
+    position: relative;
+    display: flex;
+    gap: 20px;
+    max-height: 50px;
+    padding: 10px;
+  } */
+  .banner-group-text #when01 {
+    position: absolute;
+    width: 24px;
+    min-height: 40px;
+    left: 320px;
+    top: 115px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .banner-group-text #select-type01 {
+    left: 320px;
+    top: 190px;
+  }
+  .banner-group-text button {
+    width: 100%;
+    min-height: 40px;
+    padding: 18px 0;
+    border-radius: 5px;
+    text-align: center;
+    padding-right: 20px;
+  }
+}
