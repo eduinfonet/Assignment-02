@@ -103,6 +103,16 @@
     padding-right: 20px;
   }
 
+  /* my won section */
+  .my-card {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+  .my-heading p {
+    width: 100%;
+  }
+
   /* ------------popular section--------------- */
   .poular-container {
     flex-direction: column;
