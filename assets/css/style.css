@@ -177,7 +177,7 @@ button .fa-solid {
 .popular-tour {
   width: 90%;
   max-width: 1440px;
-  height: 500px;
+  min-height: 600px;
   margin: 50px auto;
 }
 .poular-container {
@@ -222,4 +222,67 @@ button .fa-solid {
 .popular-img img {
   object-fit: cover;
   width: 100%;
+}
+/*-- ----------choose your destination section--------- */
+
+.choose-section {
+  width: 90%;
+  max-width: 1440px;
+  margin: 50px auto;
+}
+.choose-container {
+  display: flex;
+  flex-direction: column;
+}
+.choose-text {
+  text-align: center;
+  margin-top: 50px;
+}
+.choose-text h1 {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+.choose-text p {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px 300px;
+  text-align: center;
+}
+
+.choose-img {
+  width: 90%;
+  max-width: 1440px;
+  margin: 50px auto;
+}
+
+.choose-img {
+  width: 100%;
+  min-height: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.choose-img img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.row01 {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+.row02 {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+.row03 {
+  display: flex;
+  width: 100%;
+  gap: 20px;
 }

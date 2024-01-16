@@ -118,4 +118,38 @@
   .popular-img img {
     width: 100%;
   }
+
+  /* ----------choose your destination section --------------- */
+  .choose-text h1 {
+    width: 100%;
+    font-size: 25px;
+  }
+  .choose-text p {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 20px;
+    text-align: center;
+  }
+  .row01 {
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+  }
+  .row02 {
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+  }
+  .row03 {
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+  }
+  .choose-img img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
 }
