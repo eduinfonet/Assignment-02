@@ -6,7 +6,64 @@
   box-sizing: border-box;
   font-family: "Mulish", sans-serif;
 }
+/* -------------menu bar section--------------- */
+.menu-bar-section {
+  width: 90%;
+  max-width: 1440px;
+  min-height: 70px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
 
+.menu-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu-logo {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+.menu-logo h1 {
+  color: #131318;
+  font-size: 36px;
+  font-weight: 800;
+  padding-left: 20px;
+}
+.menu-logo h1 .logo-color {
+  color: #ff5400;
+  font-size: 36px;
+  font-weight: 800;
+}
+.menu-item {
+  width: 50%;
+  max-width: 500px;
+}
+.menu-item ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.menu-item ul li {
+  display: flex;
+  list-style: none;
+}
+.menu-item ul li a {
+  text-decoration: none;
+  color: #424247;
+  font-size: 18px;
+  font-weight: 400;
+}
+.menu-item .home {
+  color: #ff5400;
+  font-size: 18px;
+  font-weight: 700;
+}
+.menu-item .fa-grip-lines {
+  display: none;
+}
+/* -------------banner section ---------------- */
 .banner-section {
   width: 90%;
   max-width: 1440px;
@@ -20,6 +77,7 @@
   background-blend-mode: multiply;
   opacity: 0.8;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .banner-container {
@@ -97,7 +155,8 @@
   cursor: pointer;
   text-align: center;
 }
-.banner-group-text button {
+.banner-group-text button,
+.popular-text button {
   width: 174px;
   min-height: 40px;
   padding: 11px 0;
@@ -112,4 +171,55 @@
 }
 button .fa-solid {
   margin-right: 20px;
+}
+
+/* ------------popular section--------------- */
+.popular-tour {
+  width: 90%;
+  max-width: 1440px;
+  height: 500px;
+  margin: 50px auto;
+}
+.poular-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.popular-text {
+  width: 50%;
+}
+
+.popular-text h1 {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.popular-text p {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 20px;
+}
+.popular-list-item {
+  margin-left: 30px;
+}
+
+.popular-list-item li {
+  color: rgba(19, 19, 24, 0.7);
+  padding: 10px 0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.popular-img {
+  width: 50%;
+  text-align: right;
+}
+.popular-img img {
+  object-fit: cover;
+  width: 100%;
 }
