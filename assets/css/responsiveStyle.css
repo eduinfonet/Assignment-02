@@ -152,4 +152,42 @@
     object-fit: cover;
     width: 100%;
   }
+
+  /* --------who choose us section------------- */
+
+  .why-card-01 {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .why-heading p {
+    width: 100%;
+  }
+  /* -----------news letter-------------- */
+  .news-letter-container {
+    flex-direction: column;
+  }
+  .news-letter-form {
+    flex-direction: column;
+    width: 100%;
+    padding: 50px 1cqi;
+  }
+  .news-letter-img {
+    width: 100%;
+    max-height: 300px;
+    border-radius: 10px;
+    position: relative;
+  }
+  .save-option {
+    width: 250px;
+    height: 70px;
+
+    position: absolute;
+    left: 180px;
+    bottom: 60px;
+    rotate: -30deg;
+  }
+  /* footer */
+  .footer-container {
+    max-width: 80%;
+  }
 }
